@@ -1,0 +1,12 @@
+.products {
+  border-bottom: 4px dotted blue;
+  padding-top: 15px;
+}
+
+#mainDiv {
+  padding-bottom: 10px;
+}
+#btn_DEL,
+#btn_edit {
+  float: right;
+}
