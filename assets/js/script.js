@@ -99,6 +99,7 @@ createProduct = () => {
 };
 getoneProduct = () => {
   var idField = $("#getbyid").val();
+  $(".byid").empty();
   console.log(idField);
   $.ajax({
     url: "https://usman-recipes.herokuapp.com/api/products/" + idField,
